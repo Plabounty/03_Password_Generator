@@ -12,15 +12,15 @@ while (passwordLength < 8 || passwordLength > 128) {
   passwordLength = prompt("Password length?");
 }
 let upperCase = prompt("Include Uppercase?");
-let lowerCase = prompt("Include lowercase?");
+let lowerCase = prompt("Include Lowercase?");
 let inclNumber = prompt("Include Number?");
-let inclSymbol = prompt("Include symbol?");
+let inclSymbol = prompt("Include Symbol?");
 while (upperCase === null && lowerCase === null && inclNumber === null && inclSymbol === null) {
   alert("Must include at least one of the character options");
   upperCase = prompt("Include Uppercase?");
-  lowerCase = prompt("Include lowercase?");
+  lowerCase = prompt("Include Lowercase?");
   inclNumber = prompt("Include Number?");
-  inclSymbol = prompt("Include symbol?");
+  inclSymbol = prompt("Include Symbol?");
 }
  const generators = [];
  if(upperCase !== null ){
